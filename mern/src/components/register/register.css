@@ -1,0 +1,44 @@
+.register{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(232, 232, 232);
+}
+.container{
+    width: 70%;
+    height: 70%;
+    background-color: rgb(195, 225, 242);
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 7px 20px #b8b8b8;
+}
+.heading{
+    height: 50px;
+    background-color: rgb(233, 172, 160);
+    display: grid;
+    place-items: center;
+    color: rgb(15, 33, 33);
+    font-size: 1.3rem;
+    font-weight: 370;
+    border-radius:10px 10px 0 0 ;
+}
+.feilds{
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+.feilds form{
+    margin-bottom: 50px;
+    display: inline-block;
+}
+.feilds button{
+    padding:8px;
+}
+.message{
+    font-size: 1.3rem;
+    font-weight: 370;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgba(255, 99, 71, 0.659);
+   text-align: center;
+}
